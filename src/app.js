@@ -266,7 +266,7 @@ function mainLoop(timestamp) {
 }
 
 async function main() {
-    playerImg = await loadImage('./src/sprites.png');
+    playerImg = await loadImage('./sprites.png');
     mainLoop();
 }
 
